@@ -1,0 +1,101 @@
+
+.navbar {
+    background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbarContainer {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarLogo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.navbarLogo:hover {
+    transform: scale(1.05);
+}
+
+.logoIcon {
+    font-size: 2rem;
+}
+
+.logoText {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0.5px;
+}
+
+.navbarMenu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbarItem {
+    margin: 0;
+}
+
+.navbarLink {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.navbarLink:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+
+@media (max-width: 768px) {
+    .navbarContainer {
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .logoText {
+        font-size: 1.3rem;
+    }
+
+    .navbarMenu {
+        gap: 15px;
+    }
+
+    .navbarLink {
+        font-size: 0.9rem;
+        padding: 6px 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbarMenu {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .logoText {
+        font-size: 1.2rem;
+    }
+}
