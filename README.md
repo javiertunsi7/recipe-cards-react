@@ -3,8 +3,8 @@
 Proyecto de práctica de React que implementa un sistema de tarjetas informativas para recetas de cocina, utilizando componentes reutilizables y props.
 
 ## 📸 Captura del Proyecto
+
 ![alt text](image.png)
-![RecetasFáciles](ruta-a-tu-captura.png)
 
 ## 📋 Descripción
 
