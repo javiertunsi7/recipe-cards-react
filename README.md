@@ -4,7 +4,7 @@ Proyecto de práctica de React que implementa un sistema de tarjetas informativa
 
 ## 📸 Captura del Proyecto
 
-![alt text](image.png)
+![screenshot of the page in operation](./assets/img/image.png)
 
 ## 📋 Descripción
 
