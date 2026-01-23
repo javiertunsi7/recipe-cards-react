@@ -268,13 +268,6 @@ docs: crear documentación completa del proyecto en README
 - Build optimizado con Vite
 
 
-## 🙏 Agradecimientos
-
-- **freeCodeCamp** por la inspiración en el diseño inicial
-- **Unsplash** por las imágenes de alta calidad
-- **Vite** por la excelente experiencia de desarrollo
-- **React** por el framework
-
 ---
 
 ⭐ **Si te gustó este proyecto, no olvides darle una estrella en GitHub**
